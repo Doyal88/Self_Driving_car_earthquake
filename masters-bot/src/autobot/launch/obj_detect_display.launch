@@ -1,0 +1,3 @@
+<launch>
+    <node name="obj_detector" pkg="autobot" type="obj_detector" args="--DISPLAY --model=/home/ubuntu/caffe/DIGITS/examples/semantic-segmentation/jetson-inference/build/aarch64/bin/networks/lr_0.0001/solver_fcn_iter_40000.caffemodel --prototxt=/home/ubuntu/caffe/DIGITS/examples/semantic-segmentation/jetson-inference/build/aarch64/bin/networks/lr_0.0001/deploy_fcn_tl.prototxt  --labels=/home/ubuntu/caffe/DIGITS/examples/semantic-segmentation/jetson-inference/build/aarch64/bin/networks/lr_0.0001/labels.txt --colors=/home/ubuntu/caffe/DIGITS/examples/semantic-segmentation/jetson-inference/build/aarch64/bin/networks/lr_0.0001/label_color.txt --output_blob=score_fr --batch_size=1" output="screen" />
+</launch>
